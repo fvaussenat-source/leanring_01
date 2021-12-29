@@ -18,3 +18,4 @@ if __name__ == '__main__':
 ma_list = range(10)
 
 print(list(ma_list))
+
