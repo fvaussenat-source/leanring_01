@@ -15,7 +15,10 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-ma_list = range(10)
-
-print(list(ma_list))
+for i in range(10):
+    if i % 2:
+        print(f"{i} est une valeur impaire.")
+    else:
+        # raise ValueError("chiffres impairs non désirés.")
+        print(f"{i} est une valeur paire.")
 
