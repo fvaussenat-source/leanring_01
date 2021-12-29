@@ -13,7 +13,12 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+def add(a, b):
+    return a + b
+
 
 for i in range(10):
     if i % 2:
@@ -21,4 +26,3 @@ for i in range(10):
     else:
         # raise ValueError("chiffres impairs non désirés.")
         print(f"{i} est une valeur paire.")
-
